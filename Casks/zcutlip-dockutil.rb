@@ -13,6 +13,8 @@ cask "zcutlip-dockutil" do
     regex(%r{href=.*?/kcrawford/dockutil/releases/tag/(\d+(?:\.\d+)+)}i)
   end
 
+  depends_on macos: ">= :big_sur"
+
   # conflicts_with formula "dockutil"
   pkg "dockutil-#{version}.pkg"
 
