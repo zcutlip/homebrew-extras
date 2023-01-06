@@ -4,14 +4,17 @@ cask "zcutlip-dockutil" do
 
   url "https://github.com/kcrawford/dockutil/releases/download/#{version}/dockutil-#{version}.pkg"
   name "dockutil 3"
-  desc "dockutil is a command line utility for managing macOS dock items. It is currently written in Swift."
+  desc "Dockutil is a command-line utility for managing dock items"
   homepage "https://github.com/kcrawford/dockutil"
-  # conflicts_with formula "dockutil"
-  pkg "dockutil-#{version}.pkg"
+
   livecheck do
     url "https://github.com/kcrawford/dockutil"
     strategy :page_match
-    regex(%r{href=.*?\/kcrawford\/dockutil\/releases\/tag\/(\d+(?:\.\d+)+)}i)
+    regex(%r{href=.*?/kcrawford/dockutil/releases/tag/(\d+(?:\.\d+)+)}i)
   end
+
+  # conflicts_with formula "dockutil"
+  pkg "dockutil-#{version}.pkg"
+
   uninstall pkgutil: "dockutil.cli.tool"
 end
