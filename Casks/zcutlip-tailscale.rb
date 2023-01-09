@@ -14,7 +14,7 @@ cask "zcutlip-tailscale" do
   end
 
   auto_updates true
-  conflicts_with formula: "tailscale"
+  conflicts_with formula: "tailscale", cask: "tailscale"
   depends_on macos: ">= :catalina"
 
   app "Tailscale.app"
