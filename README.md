@@ -12,7 +12,9 @@ Or `brew tap zcutlip/extras` and then `brew install <formula>`.
 
 ## Included Formulae & Casks
 
-**`zcutlip-dockutil`**
+----
+
+### `zcutlip-dockutil`
 
 _Description_
 
@@ -28,13 +30,15 @@ _Notes_
 - If the pure-python 'dockutil' is installed from the homebrew formula or elswewhere, be sure to uninstall it first:
   - `brew uninstall dockutil`
 
-**`zcutlip-tailscale`**
+----
+
+### `zcutlip-tailscale`
 
 _Description_
 
-Mesh VPN based on Wireguard.
+Mesh VPN based on Wireguard
 
-The purpose of this Cask is to install an earlier version of Tailscale due to a DNS scoping issue in 1.34
+The purpose of this cask is to install an earlier version of Tailscale due to a DNS scoping issue in 1.34
 
 _Install_
 
