@@ -36,7 +36,7 @@ _Notes_
 
 _Description_
 
-Mesh VPN based on Wireguard.
+Mesh VPN based on Wireguard
 
 The purpose of this cask is to install an earlier version of Tailscale due to a DNS scoping issue in 1.34
 
