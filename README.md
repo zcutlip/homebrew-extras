@@ -49,3 +49,15 @@ _Notes_
 - Requires macOS Catalina or later
 - This cask is specifically pinned to version 1.32.3
 - This cask will be removed once the DNS issue referenced above is addressed
+
+----
+
+### `zcutlip-redpill`
+
+_Description_
+
+A 3D OpenGL "Matrix" screensaver for macOS
+
+_Install_
+
+`brew install --cask zcutlip/extras/zcutlip-redpill`
