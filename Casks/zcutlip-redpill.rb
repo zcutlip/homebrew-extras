@@ -4,8 +4,9 @@ cask "zcutlip-redpill" do
 
   url "https://github.com/lpar/RedPill/releases/download/v#{version}/RedPill-#{version}-64bit.dmg"
   name "zcutlip-redpill"
-  desc "A 3D OpenGL \"Matrix\" screensaver for macOS"
+  desc "3D OpenGL \"Matrix\" screensaver"
   homepage "https://github.com/lpar/RedPill"
+
   livecheck do
     url :homepage
     strategy :page_match
